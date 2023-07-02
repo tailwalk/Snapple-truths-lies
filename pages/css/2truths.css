@@ -29,26 +29,7 @@ body{
     position: relative;
     width: 100%;
     border-radius: 20px;
-}
-.middle{
-    display: flex;
-    flex-direction: column;
-    width: 33%;
-    justify-content: flex-end;
-    align-items: center;
-}
-.right, .left{
-    width: 33%
-}
-.middle button{
-    width:80%;
-    text-align: center;
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    border-radius: 30px;
-    background-color: rgb(26, 47, 105, .9);
-    color: aliceblue;
-  
+
 }
 a{
     text-decoration: none;
@@ -58,23 +39,14 @@ a{
 
 }
 
-.left img, .right img{
- width: 50%;
- margin: 60px auto;
-}
-.right img{
-    width: 61%;
-}
-
 .box{
     position: absolute;
     top: 10%;
     width: 80%;
-    display: flex;
+    display: grid;
     right: 10%;
+    border: 2px solid white;
 }
 h1 > span{
-    color: yellow
+    color: red
 }
-
-
